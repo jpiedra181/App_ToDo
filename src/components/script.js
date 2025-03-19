@@ -1,5 +1,4 @@
 export function setupTodoList() {
-    document.addEventListener("DOMContentLoaded", () => {
         const bdMembers = document.querySelector(".bdMembers")
         const bdMembersIcon = document.querySelector(".bdMembersIcon")
         const members = document.querySelector(".members")
@@ -106,5 +105,4 @@ export function setupTodoList() {
             })
             }
         })
-    })
 }
