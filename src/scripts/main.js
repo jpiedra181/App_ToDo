@@ -1,4 +1,4 @@
-export function engaged() {
+
   const bdMembers = document.querySelector(".bdMembers")
   const bdMembersIcon = document.querySelector(".bdMembersIcon")
   const members = document.querySelector(".members")
@@ -105,4 +105,3 @@ export function engaged() {
       })
     }
   })
-}
